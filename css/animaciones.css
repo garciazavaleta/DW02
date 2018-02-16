@@ -1,0 +1,157 @@
+/* CSS Document */
+/*
+/
+/
+/
+/Animaciones
+*/
+@keyframes fotoSD-animacion
+	{
+		0% {
+			position: relative;
+			left: 0px;
+			top: 0px;
+			border: 1px solid black;
+			box-shadow: 0px 0px #82c3a6;
+		}
+		50% {
+			position: relative;
+			left: 20px;
+			top: -5px;
+			border: 1px solid black;
+			box-shadow: 10px 10px #82c3a6;
+		}
+		100% {
+			position: relative;
+			left: 0px;
+			top: 0px;
+			border: 1px solid black;
+			box-shadow: 10px 10px #82c3a6;
+		}
+	}
+/*
+//
+//
+*/
+@keyframes fotoSI-rotacion
+	{
+		0% {
+			transform: rotate(0deg);
+			border: 1px solid black;
+			box-shadow: 0px 0px #82c3a6;
+
+		}
+		50% {
+			transform: rotate(10deg);
+			border: 2px solid black;
+			box-shadow: 10px 10px #82c3a6;
+		}
+		100% {
+			transform: rotate(0deg);
+			border: 1px solid black;
+			box-shadow: 0px 0px #82c3a6;
+		}
+	}
+#fotoSD img:hover
+	{
+		animation-name: fotoSD-animacion;
+		animation-duration: 1s;
+		-webkit-animation-delay: 0s;
+		-moz-animation-delay: 0s;
+		-o-animation-delay: 0s;
+		animation-delay: 0s;
+	}
+#fotoSI img:hover
+	{
+		animation-name: fotoSI-rotacion;
+		animation-duration: 1s;
+		-webkit-animation-delay: 0s;
+		-moz-animation-delay: 0s;
+		-o-animation-delay: 0s;
+		animation-delay: 0s;
+	}
+/*
+/
+/
+/
+/
+*/
+@keyframes filtroBlur
+	{
+		0% {
+			filter: blur(10px);
+			-webkit-filter: blur(10px);
+			-moz-filter: blur(10px);
+			-o-filter: blur(10px);
+			-ms-filter: blur(10px);
+		}
+		20% {
+			filter: blur(50px);
+			-webkit-filter: blur(50px);
+			-moz-filter: blur(50px);
+			-o-filter: blur(50px);
+			-ms-filter: blur(50px);
+		}
+		100% {
+			filter: blur(0px);
+			-webkit-filter: blur(0px);
+			-moz-filter: blur(0px);
+			-o-filter: blur(0px);
+			-ms-filter: blur(0px);
+		}
+	}
+#Pfoto1 img:hover
+	{
+		animation-name: filtroBlur;
+		animation-duration: 3s;
+		-webkit-animation-delay: 0s;
+		-moz-animation-delay: 0s;
+		-o-animation-delay: 0s;
+		animation-delay: 0s;
+	}
+/*
+/
+/
+/
+/
+*/
+@keyframes psychodelia
+	{
+		0% {
+			filter:hue-rotate(0deg);
+			-webkit-filter: filter:hue-rotate(0deg);
+			-moz-filter: filter:hue-rotate(0deg);
+			-o-filter: filter:hue-rotate(0deg);
+			-ms-filter: filter:hue-rotate(0deg);
+		}
+		50% {
+			filter:hue-rotate(360deg);
+			-webkit-filter: filter:hue-rotate(360deg);
+			-moz-filter: filter:hue-rotate(360deg);
+			-o-filter: filter:hue-rotate(360deg);
+			-ms-filter: filter:hue-rotate(360deg);
+		}
+		100% {
+			filter:hue-rotate(0deg);
+			-webkit-filter: filter:hue-rotate(0deg);
+			-moz-filter: filter:hue-rotate(0deg);
+			-o-filter: filter:hue-rotate(0deg);
+			-ms-filter: filter:hue-rotate(0deg);
+		}
+	}
+#Pfoto5 img:hover
+	{
+		animation-name: psychodelia;
+		animation-duration: 5s;
+		-webkit-animation-delay: 0s;
+		-moz-animation-delay: 0s;
+		-o-animation-delay: 0s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+  		animation-direction: alternate
+	}
+/*
+//
+//
+//
+//
